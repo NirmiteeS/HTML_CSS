@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Event Registration</h2>
+    <form>
+        <label for="name">Name: </label><br>
+        <input type="text" minlength="8" maxlength="25" name="name1" id="name"><br>
+        
+        <label for="emailId">Email:</label><br>
+        <input type="email" name="email" id="emailId"><br>
+        
+        <label for="phone">Phone</label><br>
+        <input type="tel" name="phone" id="phone"  size="10"><br>
+        
+        <label for="occ">Occupation</label><br>
+        <select name="occ" id="occ">
+        <option value="engg">Engineer</option>
+        <option value="doctor">Doctor</option>
+        <option value="other">Others</option></select><br>
+        <fieldset>
+        <legend>Topics of interest</legend>
+        <input type="checkbox" id="html" name="html"><br>
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="css"><br>
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="js"><br>
+        <label for="js">Javascript</label><br>
+    </fieldset>
+        <label for="comment">Comments</label><br>
+        <textarea name="comment" id="comment" cols="50" rows="5"></textarea><br>
+        
+        <label for="num">Experience years: </label>
+        <input type="number" name="num" id="num" min="0" max="30"><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
